@@ -12,4 +12,6 @@ pyinstaller --windowed --noconsole --name "Mistral OCR" tomarkdown. py
 
 You can change the name or any of the flags as you desire. 
 
+The app can is simple, after you upload a PDF and get back the response, it is displayed first as plain text, and there is also a window to view it as Markdown. You can also choose to view it in the browser for Latex rendering. It isn't always perfect, but I think that's due to the output from the API and not the code here.
+
 For terms of use, please check the license file. 
